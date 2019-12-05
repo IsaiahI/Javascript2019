@@ -15,3 +15,5 @@ Javascript -> manipulate HTML+CSS
     document => refers the webpage
     getElementById()  => access a specific HTML item by ID
     innerHTML  => Access the text between two like tags
+
+    
