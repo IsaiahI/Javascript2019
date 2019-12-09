@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>swapping the image source</title>
+  <script type="text/javascript">
+      function swapImages(){
+        document.getElementById('rainbowmonty').src="img/sledge.jpg";
+      }
+      function swapAgain(){
+        document.getElementById('rainbowmonty').src="img/rainbowmonty.jpg";
+      }
+      function yes(){
+        alert("My Image!!!");
+      }
+  </script>
+
+</head>
+
+<body>
+  <img src="img/rainbowmonty.jpg" id="rainbowmonty" onmouseover="swapImages()" onmouseout="swapAgain()" onclick="yes()">
+
+
+
+</body>
+
+</html>
