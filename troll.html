@@ -4,8 +4,16 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+  <link rel="stylesheet" type="text/css" href="troll.css">
   <script type="text/javascript">
-    function loop1() {
+
+
+  function loop2() {
+    for (i = 0; i <8; i++) {
+      alert("I told you!");
+    }
+  }
+  function loop1() {
       for (i = 0; i < 1; i++) {
         alert("hmmmmm");
       }
@@ -16,24 +24,37 @@
         alert("hellowrld");
       }
     }
-    function 
   </script>
 </head>
 
 <body>
-  <button type="button" name="button" onclick="loop()">DONT CLICK THIS BUTTON</button><br><br>
-  <button type="button" name="button" onclick="loop()">or this</button><br><br>
-  <button type="button" name="button" onclick="loop1()">not this one</button><br><br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+  <div id="container">
+    <header class="pageTop">
+      <h1>Pc Monitors</h1>
+      <p>Monitor Information</p>
+    </header>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbutton">Different Monitors
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdowncontent">
+          <a href="crt.html">CRT Monitors</a>
+          <a href="lcd.html">LCD Monitors</a>
+          <a href="led.html">LED Monitors</a>
+        </div>
+      </div>
+      <a href="../Project-Redux/index1.html">HOME</a>
+      <a href="#">Fill link</a>
+      <a href="#">Fill link</a>
+      <a href="#">Fill link</a>
+    </div>
 
-  <button type="button" name="button" onclick="loop()">not this anyone either</button>
-
+    <div id="sidebar">If you're on this site, you're probaly looking to find out what kind of monitor you want, but first what are you gonna do with it? Lets go over the different types of monitors, don't worry there are only three main types.</div>
+    <div id="content">Above you will find links to differnt pages, explaining the differences of the monitors and there common uses.</div>
+    <div id="adbox1"><a href="https://www.dell.com/en-us/work/shop/dell-22monitor-e2216hv/apd/210-agnc/monitors-monitor-accessories"><img src="images/monitorad.PNG"></a></div>
+  </div>
 </body>
 
 </html>
