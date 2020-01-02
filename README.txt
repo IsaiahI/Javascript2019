@@ -18,6 +18,7 @@ Javascript -> manipulate HTML+CSS
     parseInt          => takes a string and turns it into a number
 
 
+    ---------------------------------------------------------------------------------------------------
 
    <button type="button" name="button" onclick="loop()">DONT CLICK THIS BUTTON</button><br><br>
     <button type="button" name="button" onclick="loop()">or this</button><br><br>
@@ -31,3 +32,10 @@ Javascript -> manipulate HTML+CSS
     <br>
 
     <button type="button" name="button" onclick="loop2()"> definitely not this one either</button>
+    ---------------------------------------------------------------------------------------------------
+    forms.html notes
+
+      Form Validation:
+      Forms take in information
+      To validate a form means to check the
+      information and make sure it is correct
